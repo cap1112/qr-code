@@ -1,0 +1,45 @@
+@import url('./vars.css');
+
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--clr-light-gray);
+    font-family: var(--ff-main);
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10% 40%; 
+}
+
+.qr-container{
+    display: grid;
+    background-color: var(--clr-white);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 1rem;
+    align-items: center;
+
+}
+
+.hero-image-container{
+    display: flex;
+    height: 80%;
+    object-fit: cover;
+    justify-content: center;
+
+}
+
+.hero-image{
+    border-radius: 4%;
+}

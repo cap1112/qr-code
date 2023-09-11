@@ -1,0 +1,17 @@
+/* Custom Propeties */
+
+:root{
+    /*FONTS*/
+    /*fonts-family*/
+    --ff-main: 'Outfit', sans-serif;
+    /*fonts-size*/
+    --fs-md: 0.938rem;  /* 18px*/
+    /*fonts-weight*/
+    --fw-bd: 700;
+    --fw-rg: 400;
+    /*COLORS*/
+    --clr-white: hsla(0, 0%, 100%);
+    --clr-light-gray: hsla(212, 45%, 89%);
+    --clr-grayish-blue: hsla(220, 15%, 55%);
+    --clr-dark-blue: hsla(218, 44%, 22%);
+}
